@@ -42,7 +42,7 @@ sed -i -e "s/{description}/$description/g" $config_file
 rm pelicanconf.py-e
 
 echo "----- doing the first time publish -----"
-bash $PWD/publish
+eval "bash $PWD/publish $debug"
 echo "setup process finished"
 echo "you can visit http://"$github".github.io to to check your website"
 echo "the default theme is Flex for pelcan, you can find more configurations here"
