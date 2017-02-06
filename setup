@@ -35,10 +35,10 @@ read description
 config_file="$PWD/pelicanconf.py"
 echo "----- setting up your website -----"
 cp $PWD/pelicanconf.temp.py $PWD/pelicanconf.py
-sed -i -e "s/{github}/$github/g" $config_file
-sed -i -e "s/{author}/$author/g" $config_file
-sed -i -e "s/{sitename}/$sitename/g" $config_file
-sed -i -e "s/{description}/$description/g" $config_file
+sed -i -e "s/{{github}}/$github/g" $config_file
+sed -i -e "s/{{author}}/$author/g" $config_file
+sed -i -e "s/{{sitename}}/$sitename/g" $config_file
+sed -i -e "s/{{description}}/$description/g" $config_file
 rm pelicanconf.py-e
 
 echo "----- doing the first time publish -----"

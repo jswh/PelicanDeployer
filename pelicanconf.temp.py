@@ -29,7 +29,7 @@ AUTHOR = '{{author}}'
 SITENAME = '{{sitename}}'
 SITEURL = 'https://{{github}}.github.io'
 RELATIVE_URLS = False
-SITETITLE = '{{sitename}}}'
+SITETITLE = '{{sitename}}'
 SITESUBTITLE = '{{description}}'
 BROWSER_COLOR = '#333'
 
