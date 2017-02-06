@@ -1,5 +1,5 @@
-#set -e
-#debug='> /dev/null 2>&1'
+set -e
+debug='> /dev/null 2>&1'
 
 echo "----- getting theme Flex files -----"
 eval "git clone https://github.com/alexandrevicenzi/Flex.git Flex $debug"
