@@ -26,12 +26,12 @@ DEFAULT_PAGINATION = 15
 
 THEME='Flex'
 
-AUTHOR = '{123}'
-SITENAME = '{123}'
-SITEURL = 'https://{123}.github.io'
+AUTHOR = '{jswh}'
+SITENAME = '{jswh}'
+SITEURL = 'https://{jswh}.github.io'
 RELATIVE_URLS = False
-SITETITLE = '{123}}'
-SITESUBTITLE = '{123}'
+SITETITLE = '{jswh}}'
+SITESUBTITLE = '{jshw}'
 #SITELOGO = '{{logo}}'
 BROWSER_COLOR = '#333'
 

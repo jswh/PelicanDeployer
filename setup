@@ -1,4 +1,4 @@
-set -e
+#set -e
 debug='> /dev/null 2>&1'
 
 echo "----- getting theme Flex files -----"
@@ -34,7 +34,7 @@ read description
 
 config_file="$PWD/pelicanconf.py"
 echo "----- setting up your website -----"
-cp $PWD/pelicanconf.temp.py $PWD/pelicanconf.py -f
+cp $PWD/pelicanconf.temp.py $PWD/pelicanconf.py
 sed -i -e "s/{github}/$github/g" $config_file
 sed -i -e "s/{author}/$author/g" $config_file
 sed -i -e "s/{sitename}/$sitename/g" $config_file
