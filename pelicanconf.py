@@ -17,7 +17,6 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-#LINKS = (('Wiki', "http://wiki.jswh.me"),('Resume', 'http://resume.qmail.com/cwj/Hk9QbvSy4Kk'))
 
 DEFAULT_PAGINATION = 15
 
@@ -31,11 +30,11 @@ SITENAME = '{jswh}'
 SITEURL = 'https://{jswh}.github.io'
 RELATIVE_URLS = False
 SITETITLE = '{jswh}}'
-SITESUBTITLE = '{jshw}'
-#SITELOGO = '{{logo}}'
+SITESUBTITLE = '{jswh}'
 BROWSER_COLOR = '#333'
 
-#FAVICON = '{{logo}}'
+SITELOGO = '/logo.jpg'
+FAVICON = '/logo.jpg'
 ROBOTS = 'index, follow'
 
 COPYRIGHT_YEAR = 2018
@@ -46,7 +45,3 @@ EXTRA_PATH_METADATA = {
 #CUSTOM_CSS = 'static/custom.css'
 
 MAIN_MENU = True
-
-#DUOSHUO_SITENAME = 'mirrorlake'
-
-#SOCIAL = (('linkedin', 'http://www.linkedin.com/in/曹-维杰-a46255117'), ('github', 'https://github.com/jswh'))
