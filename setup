@@ -19,7 +19,7 @@ eval "pip install virtualenv $piprepo $debug"
 eval "virtualenv -p python3 --no-site-packages $PWD $debug"
 source $PWD/bin/activate
 eval "pip install pelican markdown ghp-import six $piprepo $debug"
-mkdir $PWD/content
+mkdir -p $PWD/content
 
 echo "----- doing some basic setting for your website -----"
 
