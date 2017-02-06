@@ -1,7 +1,17 @@
-git clone https://github.com/jswh/Flex.git Flex
-pip install virtualenv
-virtualenv -p python3 --no-site-packages $PWD
+debug='&> /dev/null'
+git clone https://github.com/alexandrevicenzi/Flex.git Flex $debug
+
+read -p "Are you located in China mainland?" yn
+case $yn in
+    [Nn]* ) piprepo="";;
+    [Yy]* ) piprepo="-i https://pypi.doubanio.com/simple";;
+    * ) echo "Please answer yes or no.";;
+esac
+pip install virtualenv $piprepo $debug
+virtualenv -p python3 --no-site-packages $PWD $debug
 source $PWD/bin/activate
-pip install pelican markdown ghp-import six
+pip install pelican markdown ghp-import six $piprepo $debug
 echo "symlink install theme $PWD/Flex"
 pelican-themes -s $PWD/Flex
+mkdir $PWD/content
+
