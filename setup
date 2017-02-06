@@ -1,4 +1,4 @@
-set -e
+#set -e
 #debug='> /dev/null 2>&1'
 
 echo "----- getting theme Flex files -----"
@@ -19,6 +19,26 @@ eval "pip install virtualenv $piprepo $debug"
 eval "virtualenv -p python3 --no-site-packages $PWD $debug"
 source $PWD/bin/activate
 eval "pip install pelican markdown ghp-import six $piprepo $debug"
-pelican-themes -s $PWD/Flex
 mkdir $PWD/content
 
+echo "----- doing some basic setting for your website -----"
+
+echo -n "What is your github user name? "
+read github
+echo -n "What is the default author name? "
+read author
+echo -n "What is your website name"
+read sitename
+echo -n "What is your website description"
+read description
+
+config_file="$PWD/pelicanconf.py"
+echo "----- setting up your website -----"
+cp $PWD/pelicanconf.temp.py $PWD/pelicanconf.py -f
+sed -i -e "s/{github}/$github/g" $config_file
+sed -i -e "s/{author}/$author/g" $config_file
+sed -i -e "s/{sitename}/$sitename/g" $config_file
+sed -i -e "s/{description}/$description/g" $config_file
+rm pelicanconf.py-e
+
+echo ""
