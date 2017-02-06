@@ -1,17 +1,24 @@
-debug='&> /dev/null'
-git clone https://github.com/alexandrevicenzi/Flex.git Flex $debug
+set -e
+#debug='> /dev/null 2>&1'
 
-read -p "Are you located in China mainland?" yn
-case $yn in
-    [Nn]* ) piprepo="";;
-    [Yy]* ) piprepo="-i https://pypi.doubanio.com/simple";;
-    * ) echo "Please answer yes or no.";;
-esac
-pip install virtualenv $piprepo $debug
-virtualenv -p python3 --no-site-packages $PWD $debug
+echo "----- getting theme Flex files -----"
+eval "git clone https://github.com/alexandrevicenzi/Flex.git Flex $debug"
+
+piprepo="0"
+while [[ $piprepo = "0" ]];do
+    read -p "Are you located in China mainland?" yn
+    case $yn in
+        [Nn]* ) piprepo="";;
+        [Yy]* ) piprepo="-i https://pypi.doubanio.com/simple";;
+        * ) echo "Please answer yes or no.";;
+    esac
+done
+
+echo "----- installing dependencies -----"
+eval "pip install virtualenv $piprepo $debug"
+eval "virtualenv -p python3 --no-site-packages $PWD $debug"
 source $PWD/bin/activate
-pip install pelican markdown ghp-import six $piprepo $debug
-echo "symlink install theme $PWD/Flex"
+eval "pip install pelican markdown ghp-import six $piprepo $debug"
 pelican-themes -s $PWD/Flex
 mkdir $PWD/content
 
