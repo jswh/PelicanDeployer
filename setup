@@ -41,4 +41,6 @@ sed -i -e "s/{sitename}/$sitename/g" $config_file
 sed -i -e "s/{description}/$description/g" $config_file
 rm pelicanconf.py-e
 
+echo "----- doing the first time publish -----"
+echo "#thank you for using [pelcandeployer](https://github.com/jswh/PelcianDeployer)" >> $PWD/content/first.md
 bash $PWD/publish
