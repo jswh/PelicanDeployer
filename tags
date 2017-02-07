@@ -1,0 +1,146 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADD_THIS_ID	Flex/tests/pelicanconf.py	/^ADD_THIS_ID = 'ra-XX3242XX'$/;"	kind:variable	line:77
+AUTHOR	Flex/tests/pelicanconf.py	/^AUTHOR = u'Test'$/;"	kind:variable	line:11
+AUTHOR	pelicanconf.temp.py	/^AUTHOR = '{{author}}'$/;"	kind:variable	line:28
+AUTHOR_FEED_ATOM	Flex/tests/pelicanconf.py	/^AUTHOR_FEED_ATOM = None$/;"	kind:variable	line:32
+AUTHOR_FEED_ATOM	pelicanconf.temp.py	/^AUTHOR_FEED_ATOM = None$/;"	kind:variable	line:16
+AUTHOR_FEED_RSS	Flex/tests/pelicanconf.py	/^AUTHOR_FEED_RSS = None$/;"	kind:variable	line:33
+AUTHOR_FEED_RSS	pelicanconf.temp.py	/^AUTHOR_FEED_RSS = None$/;"	kind:variable	line:17
+AddressReuseTCPServer	fabfile.py	/^    class AddressReuseTCPServer(SocketServer.TCPServer):$/;"	kind:class	line:52
+BROWSER_COLOR	Flex/tests/pelicanconf.py	/^BROWSER_COLOR = '#333'$/;"	kind:variable	line:19
+BROWSER_COLOR	pelicanconf.temp.py	/^BROWSER_COLOR = '#333'$/;"	kind:variable	line:34
+CATEGORY_FEED_ATOM	Flex/tests/pelicanconf.py	/^CATEGORY_FEED_ATOM = 'feeds\/%s.atom.xml'$/;"	kind:variable	line:68
+CATEGORY_FEED_ATOM	Flex/tests/pelicanconf.py	/^CATEGORY_FEED_ATOM = None$/;"	kind:variable	line:30
+CATEGORY_FEED_ATOM	pelicanconf.temp.py	/^CATEGORY_FEED_ATOM = None$/;"	kind:variable	line:14
+CATEGORY_FEED_ATOM	publishconf.py	/^CATEGORY_FEED_ATOM = 'feeds\/%s.atom.xml'$/;"	kind:variable	line:15
+CC_LICENSE	Flex/tests/pelicanconf.py	/^CC_LICENSE = {$/;"	kind:variable	line:49
+CC_LICENSE	pelicanconf.temp.py	/^CC_LICENSE = { 'name': 'Creative Commons Attribution-ShareAlike', 'version':'4.0', 'slug': 'by-sa' }$/;"	kind:variable	line:41
+COPYRIGHT_YEAR	Flex/tests/pelicanconf.py	/^COPYRIGHT_YEAR = 2016$/;"	kind:variable	line:55
+COPYRIGHT_YEAR	pelicanconf.temp.py	/^COPYRIGHT_YEAR = 2018$/;"	kind:variable	line:40
+ComplexHTTPRequestHandler	fabfile.py	/^from pelican.server import ComplexHTTPRequestHandler$/;"	kind:namespace	line:8
+DEFAULT_LANG	Flex/tests/pelicanconf.py	/^DEFAULT_LANG = u'en'$/;"	kind:variable	line:26
+DEFAULT_LANG	pelicanconf.temp.py	/^DEFAULT_LANG = 'zh'$/;"	kind:variable	line:10
+DEFAULT_PAGINATION	Flex/tests/pelicanconf.py	/^DEFAULT_PAGINATION = 10$/;"	kind:variable	line:57
+DEFAULT_PAGINATION	Flex/tests/pelicanconf.py	/^DEFAULT_PAGINATION = 5$/;"	kind:variable	line:72
+DEFAULT_PAGINATION	pelicanconf.temp.py	/^DEFAULT_PAGINATION = 15$/;"	kind:variable	line:21
+DELETE_OUTPUT_DIRECTORY	Flex/tests/pelicanconf.py	/^DELETE_OUTPUT_DIRECTORY = False$/;"	kind:variable	line:70
+DELETE_OUTPUT_DIRECTORY	publishconf.py	/^DELETE_OUTPUT_DIRECTORY = True$/;"	kind:variable	line:17
+DEPLOY_PATH	fabfile.py	/^DEPLOY_PATH = env.deploy_path$/;"	kind:variable	line:12
+DISQUS_SITENAME	Flex/tests/pelicanconf.py	/^DISQUS_SITENAME = "test-test"$/;"	kind:variable	line:75
+EXTRA_PATH_METADATA	pelicanconf.temp.py	/^EXTRA_PATH_METADATA = {$/;"	kind:variable	line:43
+FAVICON	Flex/tests/pelicanconf.py	/^FAVICON = SITEURL + '\/images\/favicon.ico'$/;"	kind:variable	line:18
+FAVICON	pelicanconf.temp.py	/^FAVICON = '\/logo.jpg'$/;"	kind:variable	line:37
+FEED_ALL_ATOM	Flex/tests/pelicanconf.py	/^FEED_ALL_ATOM = 'feeds\/all.atom.xml'$/;"	kind:variable	line:29
+FEED_ALL_ATOM	Flex/tests/pelicanconf.py	/^FEED_ALL_ATOM = 'feeds\/all.atom.xml'$/;"	kind:variable	line:67
+FEED_ALL_ATOM	pelicanconf.temp.py	/^FEED_ALL_ATOM = None$/;"	kind:variable	line:13
+FEED_ALL_ATOM	publishconf.py	/^FEED_ALL_ATOM = 'feeds\/all.atom.xml'$/;"	kind:variable	line:14
+GOOGLE_ANALYTICS	Flex/tests/pelicanconf.py	/^GOOGLE_ANALYTICS = "UA-XXXXXX-X"$/;"	kind:variable	line:76
+HtmlFormatter	Flex/pygments/generate.py	/^from pygments.formatters.html import HtmlFormatter$/;"	kind:namespace	line:6
+JINJA_ENVIRONMENT	Flex/tests/pelicanconf.py	/^JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n', 'jinja2.ext.autoescape', 'jinja2.ext.with_']}$/;"	kind:variable	line:9
+LINKS	Flex/tests/pelicanconf.py	/^LINKS = (('Portfolio', '\/\/alexandrevicenzi.com'),)$/;"	kind:variable	line:38
+MAIN_MENU	Flex/tests/pelicanconf.py	/^MAIN_MENU = True$/;"	kind:variable	line:36
+MAIN_MENU	pelicanconf.temp.py	/^MAIN_MENU = True$/;"	kind:variable	line:47
+MENUITEMS	Flex/tests/pelicanconf.py	/^MENUITEMS = (('Archives', '\/archives.html'),$/;"	kind:variable	line:45
+OG_LOCALE	Flex/tests/pelicanconf.py	/^OG_LOCALE = u'en_US'$/;"	kind:variable	line:27
+PATH	Flex/tests/pelicanconf.py	/^PATH = u'content'$/;"	kind:variable	line:24
+PATH	pelicanconf.temp.py	/^PATH = 'content'$/;"	kind:variable	line:6
+PLUGINS	Flex/tests/pelicanconf.py	/^PLUGINS = ['i18n_subsites']$/;"	kind:variable	line:7
+PLUGIN_PATHS	Flex/tests/pelicanconf.py	/^PLUGIN_PATHS = ['..\/plugins']$/;"	kind:variable	line:6
+PORT	fabfile.py	/^PORT = 8000$/;"	kind:variable	line:27
+PYGMENTS_PATH	Flex/pygments/generate.py	/^PYGMENTS_PATH = '.\/..\/static\/pygments'$/;"	kind:variable	line:8
+RELATIVE_URLS	Flex/tests/pelicanconf.py	/^RELATIVE_URLS = False$/;"	kind:variable	line:65
+RELATIVE_URLS	pelicanconf.temp.py	/^RELATIVE_URLS = False$/;"	kind:variable	line:31
+ROBOTS	Flex/tests/pelicanconf.py	/^ROBOTS = u'index, follow'$/;"	kind:variable	line:21
+ROBOTS	pelicanconf.temp.py	/^ROBOTS = 'index, follow'$/;"	kind:variable	line:38
+SITEDESCRIPTION	Flex/tests/pelicanconf.py	/^SITEDESCRIPTION = u'%s\\'s Thoughts and Writings' % AUTHOR$/;"	kind:variable	line:16
+SITELOGO	Flex/tests/pelicanconf.py	/^SITELOGO = u'https:\/\/www.example.com\/img\/profile.png'$/;"	kind:variable	line:17
+SITELOGO	pelicanconf.temp.py	/^SITELOGO = '\/logo.jpg'$/;"	kind:variable	line:36
+SITENAME	Flex/tests/pelicanconf.py	/^SITENAME = u"Test Blog"$/;"	kind:variable	line:13
+SITENAME	pelicanconf.temp.py	/^SITENAME = '{{sitename}}'$/;"	kind:variable	line:29
+SITESUBTITLE	Flex/tests/pelicanconf.py	/^SITESUBTITLE = u'Test'$/;"	kind:variable	line:15
+SITESUBTITLE	pelicanconf.temp.py	/^SITESUBTITLE = '{{description}}'$/;"	kind:variable	line:33
+SITETITLE	Flex/tests/pelicanconf.py	/^SITETITLE = AUTHOR$/;"	kind:variable	line:14
+SITETITLE	pelicanconf.temp.py	/^SITETITLE = '{{sitename}}'$/;"	kind:variable	line:32
+SITEURL	Flex/tests/pelicanconf.py	/^SITEURL = u'http:\/\/localhost:8000'$/;"	kind:variable	line:12
+SITEURL	pelicanconf.temp.py	/^SITEURL = 'https:\/\/{{github}}.github.io'$/;"	kind:variable	line:30
+SOCIAL	Flex/tests/pelicanconf.py	/^SOCIAL = (('linkedin', 'https:\/\/br.linkedin.com\/in\/test'),$/;"	kind:variable	line:40
+STATUSCAKE	Flex/tests/pelicanconf.py	/^STATUSCAKE = {$/;"	kind:variable	line:59
+SUMMARY_MAX_LENGTH	Flex/tests/pelicanconf.py	/^SUMMARY_MAX_LENGTH = 150$/;"	kind:variable	line:73
+SocketServer	fabfile.py	/^import SocketServer$/;"	kind:namespace	line:6
+THEME	Flex/tests/pelicanconf.py	/^THEME = u'..\/'$/;"	kind:variable	line:23
+THEME	pelicanconf.temp.py	/^THEME='Flex'$/;"	kind:variable	line:26
+TIMEZONE	Flex/tests/pelicanconf.py	/^TIMEZONE = u'America\/Sao_Paulo'$/;"	kind:variable	line:25
+TIMEZONE	pelicanconf.temp.py	/^TIMEZONE = 'Asia\/Shanghai'$/;"	kind:variable	line:8
+TRANSLATION_FEED_ATOM	Flex/tests/pelicanconf.py	/^TRANSLATION_FEED_ATOM = None$/;"	kind:variable	line:31
+TRANSLATION_FEED_ATOM	pelicanconf.temp.py	/^TRANSLATION_FEED_ATOM = None$/;"	kind:variable	line:15
+USE_FOLDER_AS_CATEGORY	Flex/tests/pelicanconf.py	/^USE_FOLDER_AS_CATEGORY = True$/;"	kind:variable	line:35
+USE_LESS	Flex/tests/pelicanconf.py	/^USE_LESS = True$/;"	kind:variable	line:79
+__usage__	ghp-win.py	/^__usage__ = "%prog [OPTIONS] DIRECTORY"$/;"	kind:variable	line:14
+add_file	ghp-win.py	/^def add_file(pipe, srcpath, tgtpath):$/;"	kind:function	line:116
+add_nojekyll	ghp-win.py	/^def add_nojekyll(pipe):$/;"	kind:function	line:125
+allow_reuse_address	fabfile.py	/^        allow_reuse_address = True$/;"	kind:variable	line:53
+b	fabfile.py	/^    local("ghp-import -b {github_pages_branch} {deploy_path}".format(**env))$/;"	kind:namespace	line:93
+build	fabfile.py	/^def build():$/;"	kind:function	line:35
+cf_upload	fabfile.py	/^def cf_upload():$/;"	kind:function	line:69
+check_repo	ghp-win.py	/^def check_repo(parser):$/;"	kind:function	line:57
+clean	fabfile.py	/^def clean():$/;"	kind:function	line:29
+contrib	fabfile.py	/^import fabric.contrib.project as project$/;"	kind:namespace	line:2
+dec	ghp-win.py	/^    def dec(text):$/;"	kind:function	line:23
+dec	ghp-win.py	/^    def dec(text):$/;"	kind:function	line:40
+deploy_path	fabfile.py	/^    local("ghp-import -b {github_pages_branch} {deploy_path}".format(**env))$/;"	kind:namespace	line:93
+dest_path	fabfile.py	/^dest_path = '\/var\/www'$/;"	kind:variable	line:16
+directory	ghp-win.py	/^        parser.error("No import directory specified.")$/;"	kind:namespace	line:178
+enc	ghp-win.py	/^    def enc(text):$/;"	kind:function	line:18
+enc	ghp-win.py	/^    def enc(text):$/;"	kind:function	line:35
+export	Flex/pygments/generate.py	/^def export():$/;"	kind:function	line:11
+fabfile.py	fabfile.py	1;"	kind:file	line:1
+fabric	fabfile.py	/^import fabric.contrib.project as project$/;"	kind:namespace	line:2
+generate.py	Flex/pygments/generate.py	1;"	kind:file	line:1
+get_all_styles	Flex/pygments/generate.py	/^from pygments.styles import get_all_styles$/;"	kind:namespace	line:5
+get_config	ghp-win.py	/^def get_config(key):$/;"	kind:function	line:82
+get_prev_commit	ghp-win.py	/^def get_prev_commit(branch):$/;"	kind:function	line:88
+gh_pages	fabfile.py	/^def gh_pages():$/;"	kind:function	line:90
+ghp-win.py	ghp-win.py	1;"	kind:file	line:1
+github_pages_branch	fabfile.py	/^    local("ghp-import -b {github_pages_branch} {deploy_path}".format(**env))$/;"	kind:namespace	line:93
+gitpath	ghp-win.py	/^def gitpath(fname):$/;"	kind:function	line:131
+main	ghp-win.py	/^def main():$/;"	kind:function	line:173
+mk_when	ghp-win.py	/^def mk_when(timestamp=None):$/;"	kind:function	line:97
+normalize_path	ghp-win.py	/^def normalize_path(path):$/;"	kind:function	line:49
+op	ghp-win.py	/^import optparse as op$/;"	kind:namespace	line:7
+options	ghp-win.py	/^def options():$/;"	kind:function	line:157
+os	Flex/pygments/generate.py	/^import os$/;"	kind:namespace	line:3
+os	fabfile.py	/^import os$/;"	kind:namespace	line:3
+os	ghp-win.py	/^import os$/;"	kind:namespace	line:8
+os	publishconf.py	/^import os$/;"	kind:namespace	line:8
+pelicanconf.py	Flex/tests/pelicanconf.py	1;"	kind:file	line:1
+pelicanconf.temp.py	pelicanconf.temp.py	1;"	kind:file	line:1
+preview	fabfile.py	/^def preview():$/;"	kind:function	line:65
+production	fabfile.py	/^production = 'root@localhost:22'$/;"	kind:variable	line:15
+project	fabfile.py	/^import fabric.contrib.project as project$/;"	kind:namespace	line:2
+publish	fabfile.py	/^def publish():$/;"	kind:function	line:79
+publishconf.py	publishconf.py	1;"	kind:file	line:1
+rebuild	fabfile.py	/^def rebuild():$/;"	kind:function	line:39
+regenerate	fabfile.py	/^def regenerate():$/;"	kind:function	line:44
+reserve	fabfile.py	/^def reserve():$/;"	kind:function	line:60
+run_import	ghp-win.py	/^def run_import(srcdir, branch, message, nojekyll):$/;"	kind:function	line:136
+serve	fabfile.py	/^def serve():$/;"	kind:function	line:48
+shutil	fabfile.py	/^import shutil$/;"	kind:namespace	line:4
+sp	ghp-win.py	/^import subprocess as sp$/;"	kind:namespace	line:9
+specified	ghp-win.py	/^        parser.error("No import directory specified.")$/;"	kind:namespace	line:178
+start_commit	ghp-win.py	/^def start_commit(pipe, branch, message):$/;"	kind:function	line:104
+sys	fabfile.py	/^import sys$/;"	kind:namespace	line:5
+sys	ghp-win.py	/^import sys$/;"	kind:namespace	line:10
+sys	publishconf.py	/^import sys$/;"	kind:namespace	line:9
+time	ghp-win.py	/^import time$/;"	kind:namespace	line:11
+try_rebase	ghp-win.py	/^def try_rebase(remote, branch):$/;"	kind:function	line:70
+unicode_literals	Flex/tests/pelicanconf.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:4
+unicode_literals	pelicanconf.temp.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:3
+unicode_literals	publishconf.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:3
+unicodedata	ghp-win.py	/^import unicodedata$/;"	kind:namespace	line:12
+write	ghp-win.py	/^    def write(pipe, data):$/;"	kind:function	line:28
+write	ghp-win.py	/^    def write(pipe, data):$/;"	kind:function	line:45

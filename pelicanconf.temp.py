@@ -25,12 +25,12 @@ DEFAULT_PAGINATION = 15
 
 THEME='Flex'
 
-AUTHOR = '{{author}}'
-SITENAME = '{{sitename}}'
-SITEURL = 'https://{{github}}.github.io'
+AUTHOR = '%author%'
+SITENAME = '%sitename%'
+SITEURL = 'https://%github%.github.io'
 RELATIVE_URLS = False
-SITETITLE = '{{sitename}}'
-SITESUBTITLE = '{{description}}'
+SITETITLE = '%sitename%'
+SITESUBTITLE = '%description%'
 BROWSER_COLOR = '#333'
 
 SITELOGO = '/logo.jpg'
